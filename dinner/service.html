@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dinner</title>
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Volkhov:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Magnific PopUp -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"
+      integrity="sha512-C1zvdb9R55RAkl6xCLTPt+Wmcz6s+ccOvcr6G57lbm8M2fbgn2SUjUJbQ13fEyjuLViwe97uJvwa1EUf4F1Akw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+      integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="/owlcarousel/assets/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="owlcarousel/assets/owl.theme.default.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/service.css" />
+  </head>
+  <body id="body">
+    <!-- Header -->
+    <header id="site-headers" class="main-header">
+      <div class="container">
+        <div class="site-header">
+          <div class="logo">
+            <h1>
+              <a class="brand-logo" href="#">Diner</a>
+            </h1>
+          </div>
+          <div class="content">
+            <div class="search-bar">
+              <form action="" class="search position-relative">
+                <input
+                  type="search"
+                  class="search__input"
+                  placeholder="Search here.."
+                />
+                <span class="fa fa-search search__icon"></span>
+              </form>
+            </div>
+            <div class="toggle text-center">
+              <div class="dark-and-light">
+                <nav class="navigation">
+                  <div class="theme-switch-wrapper">
+                    <button
+                      class="btn"
+                      id="switchButton"
+                      title="Click to switch theme"
+                    >
+                      <i class="far fa-moon"></i>
+                      <i class="far fa-sun"></i>
+                    </button>
+                  </div>
+                </nav>
+              </div>
+            </div>
+            <div class="nav-button text-center">
+              <button id="trigger-overlay" type="button">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+          <div class="overlay overlay-scale">
+            <button type="button" class="overlay-close">
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+
+            <nav class="menu-header-menu-container">
+              <ul id="primary-menu" class="">
+                <li
+                  id="menu-item-21"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item menu-item-21"
+                >
+                  <a href="/index.html" aria-current="page">Home</a>
+                </li>
+                <li
+                  id="menu-item-27"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"
+                >
+                  <a href="./dinner/about.html">About</a>
+                </li>
+                <li
+                  id="menu-item-26"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"
+                >
+                  <a href="https://wp.w3layouts.com/diner/services-page/"
+                    >Services</a
+                  >
+                </li>
+                <li
+                  id="menu-item-20"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"
+                >
+                  <a href="https://wp.w3layouts.com/diner/blog-posts/"
+                    >Blog Posts</a
+                  >
+                </li>
+                <li
+                  id="menu-item-22"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"
+                >
+                  <a href="https://wp.w3layouts.com/diner/404-page/"
+                    >404 page</a
+                  >
+                </li>
+                <li
+                  id="menu-item-24"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"
+                >
+                  <a href="https://wp.w3layouts.com/diner/elements-page/"
+                    >Elements</a
+                  >
+                </li>
+                <li
+                  id="menu-item-23"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"
+                >
+                  <a href="https://wp.w3layouts.com/diner/contact-page/"
+                    >Contact</a
+                  >
+                </li>
+                <li
+                  id="menu-item-25"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"
+                >
+                  <a href="https://wp.w3layouts.com/diner/single-landing-page/"
+                    >Landing page</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Banner-->
+    <section class="banner">
+      <div class="header-fixed-space-height"></div>
+      <div class="banner-content">
+        <div class="container text-center ServicePageHeroHeader">
+          <ul class="custom-path">
+            <a href="/index.html" rel="nofollow">Home</a
+            >&nbsp;&nbsp;&#187;&nbsp;&nbsp;Service page
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- About Us -->
+    <section class="about__us py-5">
+      <div class="container py-md-5">
+        <div class="row content-1-grids">
+          <div class="col-lg-5 col-md-12 aboutUs__left">
+            <h3 class="text_title_min">What We Offer</h3>
+            <p class="text_title_medium">
+              We found our creative space that is open for you.
+            </p>
+          </div>
+          <div class="col-lg-7 col-md-12 aboutUs__right">
+            <p id="aboutUs__right__content1">
+              Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+              ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
+              amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit amet.
+              Lorem ipsum init dolor sit, amet elit. Dolor ipsum non velit,
+              culpa!Lorem ipsum init dolor sit.
+            </p>
+            <p mt-3 id="aboutUs__right__content2">
+              Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+              ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
+              amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu -->
+    <section class="menu py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12 p-3">
+            <div class="menu_card">
+              <div class="grid_card">
+                <div class="icon"><i class="fa fa-users"></i></div>
+                <div class="inf">
+                  <p>01</p>
+                  <h3>Soup</h3>
+                </div>
+              </div>
+              <p class="mt-3">
+                Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi
+                vitae sit.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 p-3">
+            <div class="menu_card">
+              <div class="grid_card">
+                <div class="icon"><i class="fa fa-shield-alt"></i></div>
+                <div class="inf">
+                  <p>02</p>
+                  <h3>Drink</h3>
+                </div>
+              </div>
+              <p class="mt-3">
+                Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi
+                vitae sit.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 p-3">
+            <div class="menu_card">
+              <div class="grid_card">
+                <div class="icon"><i class="fa fa-temperature-high"></i></div>
+                <div class="inf">
+                  <p>03</p>
+                  <h3>Pizza</h3>
+                </div>
+              </div>
+              <p class="mt-3">
+                Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi
+                vitae sit.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 p-3">
+            <div class="menu_card">
+              <div class="grid_card">
+                <div class="icon"><i class="fa fa-hands-helping"></i></div>
+                <div class="inf">
+                  <p>04</p>
+                  <h3>Breakfast</h3>
+                </div>
+              </div>
+              <p class="mt-3">
+                Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi
+                vitae sit.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 p-3">
+            <div class="menu_card">
+              <div class="grid_card">
+                <div class="icon"><i class="fa fa-paint-brush"></i></div>
+                <div class="inf">
+                  <p>05</p>
+                  <h3>Lunch</h3>
+                </div>
+              </div>
+              <p class="mt-3">
+                Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi
+                vitae sit.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 p-3">
+            <div class="menu_card">
+              <div class="grid_card">
+                <div class="icon"><i class="fa fa-eraser"></i></div>
+                <div class="inf">
+                  <p>06</p>
+                  <h3>Dinner</h3>
+                </div>
+              </div>
+              <p class="mt-3">
+                Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi
+                vitae sit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact py-5">
+      <div class="container">
+        <div class="contact_about">
+          <h3 class="px-lg-5">Deliciousness jumping into the mouth.</h3>
+          <div class="number_button pb-lg-5 pt-lg-5">
+            <a class="btn btn-style btn-white mt-sm-5 mt-4 mr-lg-4 mr-2">
+              Read more
+              <i class="fa fa-angle-right"></i>
+            </a>
+            <a class="btn btn-style btn-orange mt-sm-5 mt-4 mr-lg-4 mr-2">
+              Contact Us
+              <i class="fa fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Price Menu-->
+    <section id="pricing" class="home-services pricing-sec py-5">
+      <div class="container py-lg-5 py-md-3 py-2 ServicesPageMenuItems">
+        <div class="header-title text-center">
+          <h6 class="text_title_min">Plans</h6>
+          <h3 class="text_title_medium">Our Menu</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 menu-section pr-lg-5">
+            <!-- Item starts -->
+            <div class="menu-item">
+              <div class="mb-4">
+                <div class="row border-dot no-gutters">
+                  <div class="col-8 menu-item-name">
+                    <h6>Slow Cooked Egg</h6>
+                  </div>
+                  <div class="col-4 menu-item-price text-right">
+                    <h6>$79.50</h6>
+                  </div>
+                </div>
+                <div class="menu-item-description">
+                  <p>Lorem ipsum dolor sit amet adipiscing.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Item ends -->
+            <!-- Item starts -->
+            <div class="menu-item">
+              <div class="mb-4">
+                <div class="row border-dot no-gutters">
+                  <div class="col-8 menu-item-name">
+                    <h6>Ravioli</h6>
+                  </div>
+                  <div class="col-4 menu-item-price text-right">
+                    <h6>$63.75</h6>
+                  </div>
+                </div>
+                <div class="menu-item-description">
+                  <p>Lorem ipsum dolor sit amet adipiscing.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Item ends -->
+            <!-- Item starts -->
+            <div class="menu-item">
+              <div class="mb-4">
+                <div class="row border-dot no-gutters">
+                  <div class="col-8 menu-item-name">
+                    <h6>Chicken Salad</h6>
+                  </div>
+                  <div class="col-4 menu-item-price text-right">
+                    <h6>$70.50</h6>
+                  </div>
+                </div>
+                <div class="menu-item-description">
+                  <p>Lorem ipsum dolor sit amet adipiscing.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Item ends -->
+            <!-- Item starts -->
+            <div class="menu-item">
+              <div class="">
+                <div class="row border-dot no-gutters">
+                  <div class="col-8 menu-item-name">
+                    <h6>Sweet Heat Salad</h6>
+                  </div>
+                  <div class="col-4 menu-item-price text-right">
+                    <h6>$58.25</h6>
+                  </div>
+                </div>
+                <div class="menu-item-description">
+                  <p>Lorem ipsum dolor sit amet adipiscing.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Item ends -->
+          </div>
+          <div class="col-lg-6 menu-section">
+            <!-- Item starts -->
+            <div class="menu-item">
+              <div class="mb-4">
+                <div class="row border-dot no-gutters">
+                  <div class="col-8 menu-item-name">
+                    <h6>Spinach Chicken</h6>
+                  </div>
+                  <div class="col-4 menu-item-price text-right">
+                    <h6>$63.75</h6>
+                  </div>
+                </div>
+                <div class="menu-item-description">
+                  <p>Lorem ipsum dolor sit amet adipiscing.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Item ends -->
+            <!-- Item starts -->
+            <div class="menu-item">
+              <div class="mb-4">
+                <div class="row border-dot no-gutters">
+                  <div class="col-8 menu-item-name">
+                    <h6>Tomahawk Steak</h6>
+                  </div>
+                  <div class="col-4 menu-item-price text-right">
+                    <h6>$70.50</h6>
+                  </div>
+                </div>
+                <div class="menu-item-description">
+                  <p>Lorem ipsum dolor sit amet adipiscing.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Item ends -->
+            <!-- Item starts -->
+            <div class="menu-item">
+              <div class="mb-4">
+                <div class="row border-dot no-gutters">
+                  <div class="col-8 menu-item-name">
+                    <h6>Cornish Turbot</h6>
+                  </div>
+                  <div class="col-4 menu-item-price text-right">
+                    <h6>$58.25</h6>
+                  </div>
+                </div>
+                <div class="menu-item-description">
+                  <p>Lorem ipsum dolor sit amet adipiscing.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Item ends -->
+            <!-- Item starts -->
+            <div class="menu-item">
+              <div class="mb-">
+                <div class="row border-dot no-gutters">
+                  <div class="col-8 menu-item-name">
+                    <h6>Permanent Waving</h6>
+                  </div>
+                  <div class="col-4 menu-item-price text-right">
+                    <h6>$79.50</h6>
+                  </div>
+                </div>
+                <div class="menu-item-description">
+                  <p>Lorem ipsum dolor sit amet adipiscing.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Item ends -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+      <span class="fa fa-angle-up"></span>
+    </button>
+    <!-- Footer -->
+    <footer>
+      <div class="footer py-5">
+        <div class="container py-lg-4">
+          <div class="row footer-top-29">
+            <div
+              class="col-lg-4 col-md-6 col-sm-7 footer-list footer-1 pr-lg-5"
+            >
+              <div>
+                <h2>
+                  <a href="#" class="navbar-brand">Diner</a>
+                </h2>
+              </div>
+              <p>
+                Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
+                amet Semper at elit.
+              </p>
+              <div class="footer-social">
+                <a href=""><span class="fa fa-facebook"></span></a>
+                <a href=""><span class="fa fa-twitter"></span></a>
+                <a href=""><span class="fa fa-instagram"></span></a>
+                <a href=""><span class="fa fa-linkedin"></span></a>
+              </div>
+            </div>
+            <div
+              class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list footer-2 mt-sm-0 mt-5"
+            >
+              <div class="footer-title">
+                <h6 class="title">Categories</h6>
+                <ul>
+                  <li class="cat-item cat-item-2">
+                    <a href="#url">Drinks</a>
+                  </li>
+                  <li class="cat-item cat-item-3">
+                    <a href="#">Food</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list footer-3 mt-lg-0 mt-5"
+            >
+              <div class="footer-title">
+                <h6 class="title">Archives</h6>
+                <ul>
+                  <li>
+                    <a href="#">March 2021</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 col-sm-7 footer-list footer-4 mt-lg-0 mt-5 FooterSubscribe"
+            >
+              <h6 class="title">Subscribe to our Newsletter</h6>
+              <p>
+                Enter your email and receive the latest news, updates and
+                special offers from us.
+              </p>
+
+              <form action="" class="subscribe mt-4" method="post">
+                <input
+                  type="email"
+                  name="Email"
+                  placeholder="Your Email Address"
+                  required=""
+                />
+                <button class="btn btn-style btn-primary w-100 mt-3">
+                  Subscribe Now
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="copyright">
+        <div class="container">
+          <div class="row bottom-copies">
+            <p class="col-lg-8 copyright-title">
+              © 2023 Diner. All Rights Reserved | WordPress Theme by
+              <a href="#">W3Layouts. </a>
+            </p>
+
+            <div class="col-lg-4 footer-list"></div>
+          </div>
+        </div>
+
+        <!-- move top -->
+        <button
+          onclick="topFunction()"
+          id="movetop"
+          title="Go to top"
+          style="display: block"
+        >
+          <span class="fa fa-angle-up"></span>
+        </button>
+        <!-- /move top -->
+      </section>
+    </footer>
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Popper JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Way Point -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.min.js"
+      integrity="sha512-sOMf7h9Uvkeku+gv6cIDNhpgvcunE9pAf3A/ezNcRG7//ZZv7nDm6ut69qAXTIU5J9JTbZ+PfrwqstYrq2ZnQQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <!-- Number-Count -->
+    <script>
+      $(".counter").countUp({
+        time: 2000,
+        delay: 10,
+      });
+    </script>
+    <!-- Popup -->
+    <script src="./Magnific-Popup-master/dist/jquery.magnific-popup.min.js"></script>
+    <script src="./Magnific-Popup-master/dist/magnific-popup.css"></script>
+    <script>
+      $(document).ready(function () {
+        $(".popup-with-zoom-anim").magnificPopup({
+          type: "inline",
+
+          fixedContentPos: false,
+          fixedBgPos: true,
+
+          overflowY: "auto",
+
+          closeBtnInside: true,
+          preloader: false,
+
+          midClick: true,
+          removalDelay: 300,
+          mainClass: "my-mfp-zoom-in",
+        });
+      });
+    </script>
+    <script></script>
+    <script>
+      document.getElementById("switchButton").onclick = function () {
+        document.getElementById("body").classList.toggle("dark");
+      };
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#owl-agency").owlCarousel({
+          loop: true,
+          nav: false,
+          margin: 50,
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 1,
+              nav: false,
+            },
+            736: {
+              items: 1,
+              nav: false,
+            },
+          },
+        });
+      });
+    </script>
+    <!-- move to top function for button -->
+    <script>
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+      function topFunction() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+    <script src="../index.js"></script>
+  </body>
+</html>
